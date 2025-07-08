@@ -18,38 +18,40 @@ A simple object-oriented Java system that manages different types of books in an
 
 ## 🧱 File Structure
 
-├── src/
-│ ├── Book.java
-│ ├── PaperBook.java
-│ ├── EBook.java
-│ ├── ShowcaseBook.java
-│ ├── BookInventory.java
-│ ├── MailService.java
-│ ├── ShippingService.java
-│ └── QuantumBookstoreFullTest.java
+src/  
+├── Book.java  
+├── PaperBook.java  
+├── EBook.java  
+├── ShowcaseBook.java  
+├── BookInventory.java  
+├── MailService.java  
+├── ShippingService.java  
+└── QuantumBookstoreFullTest.java  
 
 ---
 
 ## 🛠️ How to Compile and Run
 
-### 🔁 One-time setup (if needed)
+### 🔁 One-time setup
 
-Make sure you're in the root of the project folder:
+Open terminal and run:
+
 ```bash
 cd ~/Desktop/assigment-fawry2
 cd src
 javac *.java
 java QuantumBookstoreFullTest
+✅ You should see output related to:
+-----------------------------------
 
-### You should see output related to:
+- Book listing
+- Removal of outdated books
+- Purchase success/fail messages
 
-    Book listing
+-----------------------------------
 
-    Removal of outdated books
+📦 Requirements
+---------------
 
-    Purchase success/fail messages
-
-###  Requirements
-Java 11 or higher
-
-Linux/macOS/Windows with terminal access
+- Java 11 or higher
+- Terminal access (Linux/macOS/Windows)
