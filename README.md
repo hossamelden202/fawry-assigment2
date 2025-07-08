@@ -40,8 +40,9 @@ Open terminal and run:
 cd ~/Desktop/assigment-fawry2
 cd src
 javac *.java
-java QuantumBookstoreFullTest
-✅ You should see output related to:
+java QuantumBookstoreFullTest``
+
+###✅ You should see output related to:
 -----------------------------------
 
 - Book listing
@@ -50,7 +51,7 @@ java QuantumBookstoreFullTest
 
 -----------------------------------
 
-📦 Requirements
+### 📦 Requirements
 ---------------
 
 - Java 11 or higher
