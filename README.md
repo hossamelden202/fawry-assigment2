@@ -40,7 +40,7 @@ Open terminal and run:
 cd ~/Desktop/assigment-fawry2
 cd src
 javac *.java
-java QuantumBookstoreFullTest``
+java QuantumBookstoreFullTest```
 
 ###✅ You should see output related to:
 -----------------------------------
